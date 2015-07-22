@@ -40,7 +40,8 @@ You should create one R script called run_analysis.R that does the following.
 
 1. clone this repository to your working directory or set the working directory `setwd()` to the download directory 
 2. source run_analisys.R script (it requires the plyr an dplyr packages): `source('run_analysis.R')`
-__Note:__ The run_analisys.R script sets the actual working directory, creates a directory "data" in it,
+
+__Note:__ The run_analisys.R script retrieves the actual working directory, creates a directory "data" in it,
 downloads the file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip, unzips the file in to the data directory and finally deletes the zip file.
 
 3. In the working directory you'll find the file `tidy_dataset.txt` with the tidy data set in it.
